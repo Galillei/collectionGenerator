@@ -1,0 +1,18 @@
+{
+  "name": "belvg/generator-collection",
+  "version": "1.0.0",
+  "description": "N/A",
+  "type": "library",
+  "require": {
+    "php": ">=7"
+  },
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "psr-4": {
+      "BelVG\\GeneratorCollection\\": ""
+    }
+  }
+}
