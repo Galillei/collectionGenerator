@@ -1,6 +1,6 @@
 {
   "name": "belvg/generator-collection",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "N/A",
   "type": "library",
   "require": {
