@@ -37,7 +37,7 @@ class GeneratorCollection implements \IteratorAggregate
     {
         $this->collection->setPageSize($this->batchSize);
         $lastPage = $this->collection->getLastPageNumber();
-        $pageNumber = 0;
+        $pageNumber = 1;
         do {
             $this->collection->clear();
             $this->collection->setCurPage($pageNumber);
