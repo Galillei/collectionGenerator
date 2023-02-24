@@ -33,7 +33,7 @@ class GeneratorCollection implements \IteratorAggregate
         $this->batchSize = $batchSize;
     }
 
-    public function getIterator()
+    public function getIterator() :\Traversable
     {
         $this->collection->setPageSize($this->batchSize);
         $lastPage = $this->collection->getLastPageNumber();
